@@ -285,6 +285,10 @@ new_value = arn_data
 
 update_json_file(json_file_path, key_to_update, new_value)
 
+key_to_update = 'lambda_url'
+new_value = urls_data
+update_json_file(json_file_path, key_to_update, new_value)
+
 # Step 8: Create or Update CloudWatch Event Rules
 
 cloudwatch_client = boto3.client('events', aws_access_key_id=aws_access_key_id,
