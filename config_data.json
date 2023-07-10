@@ -1,0 +1,12 @@
+{
+    "lambda_function": {
+        "currency_exchange": "currency_exchange_fetcher.fetch_currency_exchange_data",
+        "currency_exchange_with_difference": "currency_exchange_fetcher.fetch_currency_exchange_data",
+        "currency_exchange_update_cron": "update_currency_exchange_price_daily.currency_exchange_price_daily"
+    },
+    "lambda_arn": {
+    },
+    "cloud_watch_rule_cron": {
+        "currency_exchange_update_cron": "cron(0 15 * * ? *)"
+    }
+}
