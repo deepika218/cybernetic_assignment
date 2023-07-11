@@ -31,7 +31,7 @@ The necessary packages will be installed in your environment, ensuring that you 
 To deploy this project run
 
 ```bash
-  python main.py --secret-key "XXXXX" --access-key "XXXX" --role-arn "arn:aws:iam::XXXXXX:role/XXXXX"
+  python main.py --secret-key "XXXXX" --access-key "XXXX" --role-arn "arn:aws:iam::XXXXXX:role/XXXXX" --region "XXXX"
 ```
 
 
